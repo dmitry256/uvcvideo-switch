@@ -1,2 +1,2 @@
 # uvcvideo-switch
-Script to (un)load uvcvideo module from kernel
+Script to dynamically load/unload uvcvideo module from kernel
