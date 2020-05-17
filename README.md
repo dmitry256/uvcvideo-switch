@@ -1,6 +1,6 @@
 # uvcvideo-switch
 
-Script to dynamically load/unload uvcvideo module from kernel
+A script that dynamically load/unload `uvcvideo` module from Linux kernel
 
 1. Install the script to `$PATH`
 2. Bind to shortcut in your Window Manager/Desktop Environment of choice
