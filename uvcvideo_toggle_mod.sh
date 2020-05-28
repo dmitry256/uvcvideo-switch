@@ -5,8 +5,6 @@ if ! [ $(id -u) = 0 ]; then
   exit 1
 fi
 
-notify-send "Root access is required to enable/disable uvcvideo";
-
 if [ -n "$(lsmod | grep -e uvcvideo)" ]; then
   modprobe -r uvcvideo && notify-send "Disabled: uvcvideo";
 else
